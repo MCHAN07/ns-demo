@@ -1,0 +1,17 @@
+{
+  "name": "my-ferplus-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@tensorflow/tfjs": "^4.11.0",
+    "@tensorflow-models/blazeface": "^0.0.7"
+  }
+}
